@@ -1,0 +1,397 @@
+.header {
+    background-image: url(../image/foon.png);
+    min-height: 918px;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 1600px) {
+    .header {
+        background-image: url(/image/fon2k.png);
+        background-repeat: no-repeat;
+        min-height: 1451px;
+        width: 100%;
+    }
+    .name-of_page {
+        margin: 8% 0 0 50%;
+    }
+}
+
+.logotype {
+    margin: 35px 0 0 2.9%;
+    border-radius: 20px;
+    height: auto;
+    float: left;
+}
+
+.name-web {
+    margin: 55px 0 0 1%;
+    float: left;
+    font-size: 125%;
+    font-family: "Proxima Nova";
+    color: rgb(41, 41, 41);
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.contact-support {
+    font-size: 100%;
+    font-family: "Proxima Nova";
+    color: rgb(41, 41, 41);
+    line-height: 2;
+    float: right;
+    margin: 55px 3% 0 0;
+}
+
+.leaf {
+    float: left;
+}
+
+.h-name {
+    font-size: 250%;
+    font-family: "Proxima Nova";
+    color: rgb(41, 41, 41);
+    line-height: 1;
+    /* margin: 115px 0 1.1%;*/
+    width: 100%;
+}
+
+.low-name {
+    font-size: 100%;
+    font-family: "Myriad Pro";
+    color: rgb(244, 92, 7);
+    text-transform: uppercase;
+    line-height: 1.508;
+    margin: 5px 0 0 180px;
+    width: 100%;
+}
+
+.name-of_page {
+    width: 717px;
+    height: auto;
+    /*border: 1px solid black;*/
+    margin: 8% 0 0 20%;
+    float: left;
+}
+
+@media (max-width:1024px) {
+    .name-of_page {
+        margin: 20px 0 0 20%;
+    }
+}
+
+@media (max-width:768px) {
+    .fruit-food,
+    .fruit {
+        display: none;
+    }
+}
+
+.fruit-food {
+    width: 100%;
+}
+
+.clear {
+    clear: both;
+}
+
+.fruit {
+    margin: 40px 0 0 0;
+}
+
+.block-join {
+    width: 500px;
+    height: auto;
+    opacity: 0.7;
+    background-color: #ffffff;
+    margin: 40px 0 0 0;
+}
+
+.name_join {
+    opacity: none;
+}
+
+.h-join {
+    font-size: 20px;
+    font-family: "ProximaNova";
+    color: rgb(3, 138, 122);
+    line-height: 0.619;
+    margin-top: 50px;
+}
+
+.text-join {
+    font-size: 100%;
+    font-family: "ProximaNova";
+    color: black;
+    line-height: 2;
+    text-align: center;
+}
+
+.mail-subit {
+    width: 280px;
+    background-color: white;
+    z-index: 1;
+}
+
+.form-group {
+    margin-top: 25px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.pass-subit {
+    width: 280px;
+    margin-top: 50px;
+}
+
+.existing {
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: rgb(34, 34, 34);
+    text-decoration: underline;
+    line-height: 1.429;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.btn-signup {
+    width: 175px;
+    height: 40px;
+}
+
+.signup {
+    margin-top: 20px;
+}
+
+.foot {
+    text-align: justify;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: rgb(163, 163, 163);
+    line-height: 1.643;
+}
+
+.sumb-mail {
+    margin-top: -45px;
+    margin-left: 10px;
+    width: 100%;
+    position: relative;
+    border: none;
+    z-index: 24;
+}
+
+.Rectangle-1 {
+    background-color: #056572;
+}
+
+.react-text {
+    height: 60px;
+    margin-top: 40px;
+    padding: 0;
+    font-size: 125%;
+    font-family: "Proxima Nova";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: left;
+}
+
+@media (max-width:991px) {
+    .react-text {
+        font-size: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    a.icon {
+        display: none;
+    }
+}
+
+.Rectangle-2 {
+    background-color: #f45c07;
+}
+
+.Rectangle-3 {
+    background-color: #038a7a;
+}
+
+.footer-head {
+    margin-top: -35px;
+    float: left;
+}
+
+.panel {
+    border-radius: 0;
+}
+
+.icon {
+    margin-top: 40px;
+}
+
+.h-trial {
+    margin-top: 110px;
+}
+
+@media (max-width:425px) {
+    .h-do_best,
+    .h-trial {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+.lef-pack {
+    margin-top: 80px;
+}
+
+.text-pack {
+    font-size: 125%;
+    font-family: "Proxima Nova";
+    color: rgba(0, 0, 0, 0.502);
+    line-height: 1.778;
+    text-align: left;
+}
+
+.h-pack_2 {
+    font-family: "Proxima Nova";
+    color: rgb(41, 41, 41);
+    line-height: 2;
+    text-align: left;
+}
+
+.h-pack {
+    font-family: "Proxima Nova";
+    color: rgb(244, 92, 7);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: left;
+}
+
+.trial-food {
+    padding: 0;
+    margin-top: 10px;
+    float: left;
+}
+
+.learn-more {}
+
+.btn-trial {
+    border: 1px solid #267a85;
+    border-radius: 25px;
+}
+
+.trial-sign {
+    margin-top: 5%;
+}
+
+.right-pack {
+    margin-top: 80px;
+}
+
+.h-do_best {
+    margin-top: 100px;
+}
+
+.health {
+    font-family: "Proxima Nova";
+    color: rgb(41, 41, 41);
+    line-height: 2;
+    text-align: center;
+}
+
+.text-what_do {
+    font-size: 125%;
+    font-family: "Proxima Nova";
+    color: rgb(163, 163, 163);
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.h-do {
+    text-align: center;
+    margin-top: 55px;
+}
+
+.first-bar {
+    margin-top: 50px;
+}
+
+.second-bar {
+    margin-top: 50px;
+}
+
+.third-bar {
+    margin-top: 50px;
+}
+
+.footer-opt {
+    background-color: #056572;
+}
+
+.h-footer {
+    padding-top: 0px;
+    font-family: "Proxima Nova";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+}
+
+
+/*@media (max-width:)*/
+
+.text-footer {
+    font-size: 100%;
+    font-family: "Proxima Nova";
+    color: rgb(255, 255, 255);
+    line-height: 1;
+    text-align: center;
+}
+
+.btn-footer {
+    background-color: #fff;
+    border-radius: 40px;
+    width: 150px;
+    margin: 15px 0 15px 0;
+}
+
+.waht-we_do {
+    margin-bottom: 125px;
+}
+
+.btn-footer {
+    margin-left: 20px;
+}
+
+@media (max-width:425px) {
+    .header {
+        min-height: 750px;
+    }
+    .block-join {
+        width: auto;
+    }
+    .text-join {
+        font-size: 12px;
+    }
+    .logotype {
+        margin: 20px 0 20px 40px;
+    }
+    .name-of_page {
+        display: none;
+    }
+    .contact-support {
+        margin: 55px 10% 0 0;
+    }
+}
+
+.contact-to_supps {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+}
