@@ -1,21 +1,37 @@
    @font-face {
        font-family: 'Proxima Nova';
        src: url('../fonts/proximanova-regular.otf');
+       src: url('../fonts/regular/proximanova-regular.eot');
+       src: url('../fonts/regular/proximanova-regular.svg');
+       src: url('../fonts/regular/proximanova-regular.ttf');
+       src: url('../fonts/regular/proximanova-regular.woff');
+       
    }
    
    @font-face {
        font-family: 'Proxima Nova bold';
        src: url('../fonts/proximanova-bold.otf');
+       src: url('../fonts/bold/proximanova-bold.eot');
+       src: url('../fonts/bold/proximanova-bold.svg');
+       src: url('../fonts/bold/proximanova-bold.ttf');
+       src: url('../fonts/bold/proximanova-bold.woff');
    }
    
    @font-face {
        font-family: 'Proxima Nova semibold';
        src: url('../fonts/proximanova-semibold.otf');
+       src: url('../fonts/semibold/proximanova-semibold.eot');
+       src: url('../fonts/semibold/proximanova-semibold.svf');
+       src: url('../fonts/semibold/proximanova-semibold.ttf');
+       src: url('../fonts/semibold/proximanova-semibold.woff');
    }
    
    @font-face {
        font-family: 'Proxima Nova light';
-       src: url('../fonts/proximanova-light.otf');
+       src: url('../fonts/light/proximanova-light.eot');
+       src: url('../fonts/light/proximanova-light.svg');
+       src: url('../fonts/light/proximanova-light.ttf');
+       src: url('../fonts/light/proximanova-light.woff');
    }
    
    .header {
@@ -100,12 +116,12 @@
    }
    
    .block-join {
-       max-width: 500px;
        background-color: rgba(255, 255, 255, 0.75);
        display: block;
-       float: left;
        margin-left: 3.2%;
        margin-top: 50px;
+       padding: 50px 0 25px 0;
+       max-width: 500px;
    }
    
    .h-join {
@@ -113,10 +129,8 @@
        font-family: "Proxima Nova semibold";
        color: rgb(3, 138, 122);
        line-height: 0.619;
-       padding-top: 15px;
        text-align: center;
        font-weight: 700;
-       margin-top: 60px;
    }
    
    @media (min-width:1200px) {
@@ -183,7 +197,7 @@
    .foot-block {
        width: 341px;
        display: block;
-       margin: 40px auto;
+       margin: 40px auto 0;
    }
    
    .foot {
@@ -421,7 +435,6 @@
        display: inline-block;
    }
    
-   
    @media (max-width:768px) {
        .h-trial {
            margin-top: 200px;
@@ -507,8 +520,6 @@
        margin: 0 auto;
    }
    
-
-   
    .max-with_block {
        max-width: 1600px;
    }
@@ -516,3 +527,41 @@
    .fruit {
        margin-top: 90px;
    }
+   
+   @media(max-width:425px) {
+       .pass-subit,
+       .mail-subit {
+           width: 250px;
+       }
+       .existing {
+           margin-left: 45px;
+       }
+       .btn-signup {
+           margin-right: 50px;
+       }
+       .blok-join {
+           margin: 50px auto;
+       }
+       .name-web {
+           margin: 55px 0 0 1%;
+       }
+   }
+.size-max {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.pansil {
+    background-image: url(../image/pancil.png);
+    display: none;
+    height: 11px;
+    width: 11px;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    z-index: 20;
+}
+
+.pansil:focus  {
+    display: block;
+}
