@@ -11,11 +11,8 @@
     .header {
         background-image: url(../image/fon2k.png);
         background-repeat: no-repeat;
-        min-height: 1141px;
+        min-height: 800px;
         width: 100%;
-    }
-    .name-of_page {
-        margin: 8% 0 0 50%;
     }
 }
 
@@ -45,10 +42,6 @@
     margin: 55px 3% 0 0;
 }
 
-.leaf {
-    float: left;
-}
-
 .h-name {
     font-size: 250%;
     font-family: "Proxima Nova";
@@ -56,6 +49,7 @@
     line-height: 1;
     /* margin: 115px 0 1.1%;*/
     width: 100%;
+    text-align: center;
 }
 
 .low-name {
@@ -64,18 +58,17 @@
     color: rgb(244, 92, 7);
     text-transform: uppercase;
     line-height: 1.508;
-    margin: 5px 0 0 180px;
     width: 100%;
+    text-align: center;
 }
 
 .name-of_page {
-    width: 717px;
+    width: 100%;
     height: auto;
     /*border: 1px solid black;*/
-    margin: 8% 0 0 20%;
-    float: left;
+    display: block;
+    margin: auto;
 }
-
 
 .clear {
     clear: both;
@@ -86,11 +79,10 @@
 }
 
 .block-join {
-    width: 500px;
-    height: auto;
-    opacity: 0.741;
-    background-color: #ffffff;
-    margin: 40px 0 0 0;
+    width: 350px;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: block;
+    margin: 40px auto;
 }
 
 .h-join {
@@ -98,7 +90,14 @@
     font-family: "ProximaNova";
     color: rgb(3, 138, 122);
     line-height: 0.619;
-    margin-top: 50px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+@media (min-width:1600px) {
+    .block-join {
+        width: 500px
+    }
 }
 
 .text-join {
@@ -109,11 +108,7 @@
     text-align: center;
 }
 
-.mail-subit {
-    width: 280px;
-    background-color: white;
-    z-index: 1;
-}
+
 
 .form-group {
     margin-top: 25px;
@@ -123,10 +118,9 @@
     margin-top: 20px;
 }
 
-.pass-subit {
-    width: 280px;
-    margin-top: 50px;
-}
+
+
+
 
 .existing {
     font-size: 14px;
@@ -135,13 +129,15 @@
     text-decoration: underline;
     line-height: 1.429;
     text-align: center;
-    position: relative;
-    margin-top: 10px;
+    float: left;
+    margin-top: -26px;
 }
 
 .btn-signup {
     min-width: 175px;
     height: 40px;
+    float: right;
+    margin-top: 10px;
 }
 
 .signup {
@@ -159,8 +155,8 @@
 }
 
 .sumb-mail {
-    margin-top: -45px;
-    margin-left: 10px;
+    top: -53px;
+    left: 10px;
     width: 100%;
     position: relative;
     border: none;
@@ -169,61 +165,49 @@
 
 .Rectangle-1 {
     background-color: #056572;
+    margin: 0;
+    min-height: 60px;
+    line-height: 50px;
 }
 
 .react-text {
-    height: 60px;
-    margin-top: 40px;
     padding: 0;
     font-size: 125%;
     font-family: "Proxima Nova";
     color: rgb(255, 255, 255);
-    line-height: 1;
-    text-align: left;
-}
-
-@media (max-width:991px) {
-    .react-text {
-        font-size: 100%;
-        text-align: center;
-        margin-top: 10px;
-    }
-    a.icon {
-        display: none;
-    }
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .Rectangle-2 {
     background-color: #f45c07;
+    margin: 0;
+    min-height: 60px;
+    line-height: 50px;
 }
 
 .Rectangle-3 {
     background-color: #038a7a;
+    margin: 0;
+    /*line-height: 60px;*/
+    min-height: 60px;
+    padding: 8px 0 0 19px
 }
 
 .footer-head {
     margin-top: -35px;
-    float: left;
-}
-
-.panel {
-    border-radius: 0;
+    display: table;
 }
 
 .icon {
-    margin-top: 40px;
+    position: relative;
+    left: -15px;
 }
 
 .h-trial {
     margin-top: 110px;
-}
-
-@media (max-width:425px) {
-    .h-do_best,
-    .h-trial {
-        font-size: 30px;
-        text-align: center;
-    }
+    text-align: center;
 }
 
 .lef-pack {
@@ -278,6 +262,7 @@
 
 .h-do_best {
     margin-top: 100px;
+    text-align: center;
 }
 
 .health {
@@ -315,10 +300,11 @@
 
 .footer-opt {
     background-color: #056572;
+    text-align: center;
 }
 
 .h-footer {
-    padding-top: 0px;
+    padding-top: 10px;
     font-family: "Proxima Nova";
     color: rgb(255, 255, 255);
     line-height: 1;
@@ -336,90 +322,111 @@
     text-align: center;
 }
 
-.btn-footer {
-    background-color: #fff;
-    border-radius: 40px;
-    width: 150px;
-    margin: 15px 0 15px -20%;
-}
-
 .waht-we_do {
     margin-bottom: 125px;
-}
-
-.btn-footer {
-    margin-left: 20px;
-}
-
-@media (max-width:430px) {
-    .header {
-        min-height: 750px;
-    }
-    .block-join {
-        margin-left: -3.5%;
-    }
-    .text-join {
-        font-size: 12px;
-    }
-    .logotype {
-        margin: 20px 0 20px 40px;
-    }
-    .name-of_page {
-        display: none;
-    }
-    .contact-support {
-        margin: 55px 10% 0 0;
-    }
-}
-
-@media (max-width:764px) {
-    .name-of_page {
-        margin: 8% 0 0 10%;
-    }
-    .h-name {
-        font-size: 150%;
-    }
-    .low-name{
-        font-size: 75%;
-        margin: 5px 0 0 120px;
-    }
-    .block-join{
-        width: 355px;
-    }
-    
-}
-@media (max-width:1024px) {
-    .name-of_page {
-        margin: 20px 0 0 20%;
-    }
-}
-
-@media (max-width:768px) {
-    .fruit-food,
-    .fruit {
-        display: none;
-    }
-    .block-join{
-        width: 405px;
-    }
 }
 
 .contact-to_supps {
     text-decoration: none;
     color: rgb(41, 41, 41);
 }
+
 .arrow-btn {
-    margin-left: 5px;
+    background-image: url(../image/arrow.png);
+    height: 13px;
+    width: 15px;
+    display: inline-block;
+    margin: -5px 0 -3px 10px;
 }
 
 .heart-img {
-    margin-left: 7%;
+    display: block;
+    margin: auto;
 }
 
 .heart {
-    margin-left: -3%; 
+    margin-left: -3%;
 }
 
 .leaf-bar {
     margin-left: 4.7%;
+}
+
+.link-foot {
+    background-color: #fff;
+    border-radius: 40px;
+    /*min-width: 150px;*/
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    line-height: 30px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.leaf {
+    position: relative;
+    top: 0;
+    left: -7x;
+    display: inline-block;
+}
+
+@media (max-width:767px) {
+    .fruit-food {
+        display: none;
+    }
+    .block-join {
+        display: block;
+        margin: auto;
+    }
+    .h-trial {
+        margin-top: 200px;
+    }
+}
+@media (max-width:990px) {
+    .h-trial {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width:375px) {
+    .h-name {
+        font-size: 150%;
+        margin-top: 20px;
+    }
+    .low-name {
+        font-size: 75%;
+    }
+    .logotype {
+        margin: 35px 0 0 6%;
+        border-radius: 20px;
+        height: auto;
+        float: left;
+    }
+    .contact-support {
+        margin: 55px 6% 0 0;
+    }
+    .header {
+        min-height: 750px
+    }
+}
+
+.container-bg {
+    background-image: url(../image/areaEmail.png);
+    background-repeat: no-repeat;
+    z-index: 1;s
+    background-color: white;
+}
+
+.table-wrap {
+    display: table;
+}
+.mail-subit {
+    border: none;
+}
+
+.pass-subit {
+    border: none;
+    box-shadow: none;
 }

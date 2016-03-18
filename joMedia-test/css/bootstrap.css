@@ -11,7 +11,7 @@ html {
 }
 body {
   margin: 0;
-    min-width: 330px;
+    min-width: 320px;
 }
 article,
 aside,
@@ -2631,9 +2631,7 @@ input[type="search"] {
     line-height: 46px;
   }
 }
-.form-group {
-  margin-bottom: 15px;
-}
+
 .radio,
 .checkbox {
   position: relative;
