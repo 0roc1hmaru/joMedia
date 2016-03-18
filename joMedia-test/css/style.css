@@ -7,24 +7,24 @@
     background-repeat: no-repeat;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1602px) {
     .header {
         background-image: url(../image/fon2k.png);
         background-repeat: no-repeat;
-        min-height: 800px;
         width: 100%;
+        background-size: cover;
     }
 }
 
 .logotype {
-    margin: 35px 0 0 2.9%;
+    margin: 25px 0 0 2.9%;
     border-radius: 20px;
     height: auto;
     float: left;
 }
 
 .name-web {
-    margin: 55px 0 0 1%;
+    margin: 45px 0 0 1%;
     float: left;
     font-size: 125%;
     font-family: "Proxima Nova";
@@ -39,7 +39,7 @@
     color: rgb(41, 41, 41);
     line-height: 2;
     float: right;
-    margin: 55px 3% 0 0;
+    margin: 45px 3% 0 0;
 }
 
 .h-name {
@@ -50,6 +50,7 @@
     /* margin: 115px 0 1.1%;*/
     width: 100%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .low-name {
@@ -75,40 +76,75 @@
 }
 
 .fruit {
-    margin: 40px 0 0 0;
+    /*background-image: url(../image/food.png);*/
+    display: block;
+    margin-top: 90px;
+    margin-left: 13.3%;
+    float: left;
+    z-index: 20;
+   /* width: 575px;
+    height: 432px;
+    border: 1px solid black;*/
+}
+
+.fruit-food {
+    width: 100%;
+    display: block;
 }
 
 .block-join {
-    width: 350px;
+    width: 500px;
     background-color: rgba(255, 255, 255, 0.75);
     display: block;
-    margin: 40px auto;
+    float: left;
+    margin-left: 4.4%;
+    margin-top: 50px;
+    z-index: 10;
 }
 
 .h-join {
-    font-size: 20px;
-    font-family: "ProximaNova";
+    font-size: 26px;
+    font-family: "Proxima Nova";
     color: rgb(3, 138, 122);
     line-height: 0.619;
     padding-top: 15px;
     text-align: center;
+    font-weight: 700;
+    margin-top: 60px;
 }
 
-@media (min-width:1600px) {
+@media (min-width:1200px) {
     .block-join {
         width: 500px
+    }
+    .h-name {
+        font-size: 375%;
+        font-family: "Proxima Nova";
+        color: rgb(41, 41, 41);
+        line-height: 1;
+        /* margin: 115px 0 1.1%;*/
+        width: 100%;
+        text-align: center;
+    }
+    .low-name {
+        font-size: 150%;
+        font-family: "Myriad Pro";
+        color: rgb(244, 92, 7);
+        text-transform: uppercase;
+        line-height: 1.508;
+        width: 100%;
+        text-align: center;
     }
 }
 
 .text-join {
-    font-size: 100%;
-    font-family: "ProximaNova";
+    font-size: 16px;
+    font-family: "Proxima Nova";
     color: black;
     line-height: 2;
+    margin-bottom: 50px;
     text-align: center;
 }
-
-
 
 .form-group {
     margin-top: 25px;
@@ -118,10 +154,6 @@
     margin-top: 20px;
 }
 
-
-
-
-
 .existing {
     font-size: 14px;
     font-family: "Proxima Nova";
@@ -130,7 +162,7 @@
     line-height: 1.429;
     text-align: center;
     float: left;
-    margin-top: -26px;
+    margin: -26px 0 0 90px;
 }
 
 .btn-signup {
@@ -138,29 +170,39 @@
     height: 40px;
     float: right;
     margin-top: 10px;
+    margin-right: 80px;
 }
 
 .signup {
     margin-top: 20px;
 }
 
+.foot-block {
+    width: 341px;
+    display: block;
+    margin: 40px auto;
+}
+
 .foot {
     text-align: justify;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: "Proxima Nova";
     color: rgb(163, 163, 163);
     line-height: 1.643;
 }
 
 .sumb-mail {
-    top: -53px;
-    left: 10px;
+    top: -77px;
+    left: 100px;
     width: 100%;
     position: relative;
     border: none;
     z-index: 24;
+    font-size: 14px;
+    font-family: "Proxima Nova";
+    color: rgb(140, 146, 147);
+    line-height: 1.714;
+    text-align: left;
 }
 
 .Rectangle-1 {
@@ -168,6 +210,9 @@
     margin: 0;
     min-height: 60px;
     line-height: 50px;
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .react-text {
@@ -178,6 +223,11 @@
     text-align: center;
     display: table-cell;
     vertical-align: middle;
+    margin: auto;
+}
+
+p.react-text {
+    text-align: center;
 }
 
 .Rectangle-2 {
@@ -368,25 +418,45 @@
 .leaf {
     position: relative;
     top: 0;
-    left: -7x;
+    left: -25px;
     display: inline-block;
 }
-
-@media (max-width:767px) {
-    .fruit-food {
-        display: none;
+@media(max-width:990px){
+    .block-join{
+        margin: 50px 23%;
     }
-    .block-join {
+}
+@media (max-width:768px) {
+    .block-join{
         display: block;
-        margin: auto;
+        margin: 50px 5em;
     }
     .h-trial {
         margin-top: 200px;
     }
 }
-@media (max-width:990px) {
-    .h-trial {
-        margin-top: 200px;
+
+@media (max-width:565px) {
+    .h-name {
+        font-size: 150%;
+        margin-top: 20px;
+    }
+    .low-name {
+        font-size: 75%;
+    }
+}
+
+@media(max-width:425px) {
+    .block-join {
+        width: 350px;
+        display: block;
+        margin: 0 auto;
+    }
+    .foot-block {
+        width: 250px;
+    }
+    .sumb-mail {
+        left: 30px;
     }
 }
 
@@ -407,26 +477,47 @@
     .contact-support {
         margin: 55px 6% 0 0;
     }
-    .header {
-        min-height: 750px
+    .leaf {
+        left: 0px;
     }
 }
 
-.container-bg {
+
+/*.container-bg {
     background-image: url(../image/areaEmail.png);
     background-repeat: no-repeat;
-    z-index: 1;s
+    z-index: 1;
     background-color: white;
 }
+*/
 
 .table-wrap {
     display: table;
+    margin: 0 auto;
 }
+
 .mail-subit {
     border: none;
+    width: 325px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    padding-left: 16px;
 }
 
 .pass-subit {
     border: none;
     box-shadow: none;
+    width: 325px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    padding-left: 16px;
+    margin-top: -10px;
+}
+
+.container-head {
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
 }
