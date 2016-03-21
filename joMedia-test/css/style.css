@@ -51,13 +51,6 @@
        }
    }
    
-   .logotype {
-       margin: 25px 0 0 2.9%;
-       border-radius: 20px;
-       height: auto;
-       float: left;
-   }
-   
    .name-web {
        margin: 45px 0 0 1%;
        float: left;
@@ -117,7 +110,7 @@
    .block-join {
        background-color: rgba(255, 255, 255, 0.75);
        display: block;
-       margin-left: 3.2%;
+       margin-left: 5%;
        margin-top: 50px;
        padding: 50px 0 25px 0;
        max-width: 500px;
@@ -166,6 +159,26 @@
        margin-top: 25px;
    }
    
+   .pansil {
+       background-image: url(../image/pancil.png);
+       display: none;
+       height: 11px;
+       width: 11px;
+       position: absolute;
+       top: 250px;
+       left: 400px;
+       z-index: 20;
+   }
+   
+   .mail-subit:focus {
+       border: none;
+   }
+   
+   .area-bg {
+       background-image: url(../image/areaEmail.png);
+       background-repeat: no-repeat;
+   }
+   
    .form-group {
        margin-top: 20px;
    }
@@ -175,10 +188,12 @@
        font-family: "Proxima Nova";
        color: rgb(34, 34, 34);
        text-decoration: underline;
-       line-height: 1.429;
+       line-height: 1;
        text-align: center;
        float: left;
        margin: -26px 0 0 90px;
+       text-decoration: none;
+       border-bottom: 1px solid #bcc4b3;
    }
    
    .btn-signup {
@@ -255,10 +270,7 @@
        display: table;
    }
    
-   .icon {
-       position: relative;
-       left: -15px;
-   }
+
    
    .h-trial {
        margin-top: 110px;
@@ -348,7 +360,7 @@
    }
    
    .second-bar {
-       margin-top: 50px;
+       margin-top: 40px;
    }
    
    .third-bar {
@@ -460,12 +472,6 @@
        .low-name {
            font-size: 75%;
        }
-       .logotype {
-           margin: 35px 0 0 6%;
-           border-radius: 20px;
-           height: auto;
-           float: left;
-       }
        .contact-support {
            margin: 55px 6% 0 0;
        }
@@ -473,14 +479,6 @@
            left: 0px;
        }
    }
-   /*.container-bg {
-    background-image: url(../image/areaEmail.png);
-    background-repeat: no-repeat;
-    z-index: 1;
-    background-color: white;
-}
-*/
-   
    .table-wrap {
        display: table;
        margin: 0 auto;
@@ -548,21 +546,6 @@
        margin: 0 auto;
    }
    
-   .pansil {
-       background-image: url(../image/pancil.png);
-       display: none;
-       height: 11px;
-       width: 11px;
-       position: absolute;
-       top: 250px;
-       left: 400px;
-       z-index: 20;
-   }
-.pass-subit:focus ~ .pansil{
-    display: block;
-    
-}
-   
    .rectangle-blue {
        background-color: #056572;
    }
@@ -575,7 +558,75 @@
        background-color: #038a7a;
    }
    
-   .area-bg {
-       background-image: url(../image/areaEmail.png);
+   .sprite {
+       background-image: url(../image/spritesheet.png);
        background-repeat: no-repeat;
+       display: block;
    }
+   
+   .sprite-logo {
+       width: 53px;
+       height: 51px;
+       background-position: -769px -164px;
+       margin: 25px 0 0 2.9%;
+       float: left;
+   }
+   
+   .sprite-heart {
+       width: 58px;
+       height: 55px;
+       background-position: -605px -164px;
+   }
+   
+   .sprite-like {
+       width: 66px;
+       height: 66px;
+       background-position: -605px -241px;
+   }
+   
+   .sprite-leaf2 {
+       width: 66px;
+       height: 57px;
+       background-position: -683px -164px;
+   }
+   
+   .sprite-meat_trial {
+       width: 182px;
+       height: 157px;
+       background-position: -605px -327px;
+   }
+   
+   .sprite-food_trial {
+       width: 204px;
+       height: 134px;
+       background-position: -605px -10px;
+   }
+   
+   .sprite-food {
+       width: 575px;
+       height: 432px;
+       background-position: -10px -49px;
+   }
+   
+   .sprite-chemicals {
+       width: 25px;
+       height: 18px;
+       background-position: -93px -10px;
+   }
+   
+   .wrap-num_block {
+       display: block;
+   }
+   
+   .wrap-block_numb {
+       margin: 0 auto;
+   }
+.icon {
+    margin-right: 10px;
+}
+
+.sprite-tree_leaf {
+    width: 33px;
+    height: 35px;
+    background-position: -10px -504px;
+}
