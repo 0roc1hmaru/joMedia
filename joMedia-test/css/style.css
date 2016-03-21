@@ -5,7 +5,6 @@
        src: url('../fonts/regular/proximanova-regular.svg');
        src: url('../fonts/regular/proximanova-regular.ttf');
        src: url('../fonts/regular/proximanova-regular.woff');
-       
    }
    
    @font-face {
@@ -90,7 +89,7 @@
    
    .low-name {
        font-size: 100%;
-       font-family: "Myriad Pro semibold";
+       font-family: "Proxima Nova semibold";
        color: rgb(244, 92, 7);
        text-transform: uppercase;
        line-height: 1.508;
@@ -209,8 +208,8 @@
    }
    
    .sumb-mail {
-       top: -77px;
-       left: 100px;
+       top: -74px;
+       padding-left: 22%;
        width: 100%;
        position: relative;
        border: none;
@@ -220,10 +219,11 @@
        color: rgb(140, 146, 147);
        line-height: 1.714;
        text-align: left;
+       border: none;
+       z-index: 25;
    }
    
-   .Rectangle-1 {
-       background-color: #056572;
+   .Rectangle {
        margin: 0;
        min-height: 60px;
        line-height: 60px;
@@ -243,15 +243,7 @@
        text-align: center;
    }
    
-   .Rectangle-2 {
-       background-color: #f45c07;
-       margin: 0;
-       height: 60px;
-       line-height: 60px
-   }
-   
-   .Rectangle-3 {
-       background-color: #038a7a;
+   .Rectangle {
        margin: 0;
        /*line-height: 60px;*/
        height: 60px;
@@ -456,7 +448,7 @@
            width: 250px;
        }
        .sumb-mail {
-           left: 30px;
+           padding-left: 15%;
        }
    }
    
@@ -496,18 +488,19 @@
    
    .mail-subit {
        border: none;
-       width: 325px;
-       height: 55px;
+       width: 327px;
+       height: 52px;
        display: block;
        margin: auto;
        padding-left: 16px;
+       /* border: 1px solid gray;*/
    }
    
    .pass-subit {
        border: none;
        box-shadow: none;
-       width: 325px;
-       height: 55px;
+       width: 327px;
+       height: 52px;
        display: block;
        margin: auto;
        padding-left: 16px;
@@ -533,6 +526,9 @@
        .mail-subit {
            width: 250px;
        }
+       .area-bg {
+           border-right: gray;
+       }
        .existing {
            margin-left: 45px;
        }
@@ -546,22 +542,40 @@
            margin: 55px 0 0 1%;
        }
    }
-.size-max {
-    max-width: 1600px;
-    margin: 0 auto;
-}
-
-.pansil {
-    background-image: url(../image/pancil.png);
-    display: none;
-    height: 11px;
-    width: 11px;
-    position: absolute;
-    top: 250px;
-    left: 400px;
-    z-index: 20;
-}
-
-.pansil:focus  {
+   
+   .size-max {
+       max-width: 1600px;
+       margin: 0 auto;
+   }
+   
+   .pansil {
+       background-image: url(../image/pancil.png);
+       display: none;
+       height: 11px;
+       width: 11px;
+       position: absolute;
+       top: 250px;
+       left: 400px;
+       z-index: 20;
+   }
+.pass-subit:focus ~ .pansil{
     display: block;
+    
 }
+   
+   .rectangle-blue {
+       background-color: #056572;
+   }
+   
+   .rectangle-orang {
+       background-color: #f45c07;
+   }
+   
+   .rectangle-green {
+       background-color: #038a7a;
+   }
+   
+   .area-bg {
+       background-image: url(../image/areaEmail.png);
+       background-repeat: no-repeat;
+   }
